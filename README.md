@@ -10,16 +10,20 @@ Peer Talks is a real-time chatting application designed for peer-to-peer communi
 
 ## Getting Started
 
-These instructions will help you set up and run the Peer Talks web application on your local machine.
+First, run the development server:
 
-### Prerequisites
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-- Node.js installed on your machine
-- npm package manager
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### Installation
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/peer-talks.git
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
